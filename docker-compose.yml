@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  frontend:
+    container_name: react-frontend
+    image: node:14
+    volumes:
+      - .:/workdir
+    working_dir: /workdir
+    ports:
+      - 3000:3000
+    command: >
+      bash -c "
+        npm install &&
+        npm start
+      "
