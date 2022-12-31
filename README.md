@@ -1,2 +1,1 @@
-- docker compose up
-- docker compose down
+https://redux-toolkit.js.org/tutorials/quick-start
